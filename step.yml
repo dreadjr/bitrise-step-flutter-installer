@@ -101,3 +101,13 @@ inputs:
       value_options:
       - "false"
       - "true"
+
+  - is_verbose: "false"
+    opts:
+      category: Debug
+      title: Print flutter verbose information
+      summary: If enabled will run flutter will be passed --verbose flag
+      description: If enabled will run flutter will be passed --verbose flag
+      value_options:
+      - "false"
+      - "true"
