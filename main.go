@@ -22,6 +22,8 @@ type config struct {
 	BundleURL string `env:"installation_bundle_url"`
 
 	IsDebug bool `env:"is_debug,required"`
+	
+	IsVerbose bool `env:"is_verbose,required"`
 }
 
 func failf(msg string, args ...interface{}) {
